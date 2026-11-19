@@ -1,0 +1,6 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+html { scroll-behavior: smooth; }
+body { background:#080711; color:#fff; }
+.neon { text-shadow: 0 0 12px #FF35C5, 0 0 40px #852BFF; }
+.glass { background: rgba(22,13,39,.55); backdrop-filter: blur(14px); border:1px solid rgba(255,53,197,.3); }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior:auto; } * { animation:none !important; transition:none !important; } }
